@@ -20,7 +20,7 @@ Este proyecto es una calculadora básica desarrollada con JavaScript, Bootstrap 
 1. Clona este repositorio o descarga el código fuente en tu computadora.
 2. Copia la carpeta del proyecto en la carpeta `htdocs` de tu instalación de XAMPP.
 3. Inicia tu servidor Apache y MySQL desde el panel de control de XAMPP.
-4. Abre un navegador web y ve a la URL `http://localhost/calculadora/`.
+4. Abre un navegador web y en la barra de direcciones, escribe http://localhost/calculadora/, donde calculadora es el nombre del directorio que previamente has pegado dentro de la carpeta htdocs.
 5. Podrás utilizar la calculadora para realizar operaciones matemáticas básicas.
 
 ## Estructura del proyecto
