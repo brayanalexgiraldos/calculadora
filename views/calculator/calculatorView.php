@@ -17,14 +17,14 @@
             <h1 class="text-center">Full Stack PHP Technical Test</h1>
             
             <form id="calculatorForm">
-                <div class="form-group">
-                    <label for="num1">Number 1:</label>
-                    <input type="text" class="form-control" id="num1" name="num1" required step="0.01" pattern="[0-9]+(\.[0-9]+)?" title="Please enter only numbers with an optional decimal point">
-                </div>
-                <div class="form-group">
-                    <label for="num2">Number 2:</label>
-                    <input type="text" class="form-control" id="num2" name="num2" required step="0.01" pattern="[0-9]+(\.[0-9]+)?" title="Please enter only numbers with an optional decimal point">
-                </div>
+            <div class="form-group">
+                <label for="num1">Number 1:</label>
+                <input type="text" class="form-control" id="num1" name="num1" required step="0.01" pattern="[0-9]+(\.[0-9]+)?" title="Please enter only numbers with an optional decimal point" maxlength="10">
+            </div>
+            <div class="form-group">
+                <label for="num1">Number 1:</label>
+                <input type="text" class="form-control" id="num2" name="num2" required step="0.01" pattern="[0-9]+(\.[0-9]+)?" title="Please enter only numbers with an optional decimal point" maxlength="10">
+            </div>
                 <div class="form-group">
                     <label for="operation">Operation:</label>
                     <select class="form-control" id="operation" name="operation">
